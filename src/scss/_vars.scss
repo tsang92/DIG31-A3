@@ -1,0 +1,50 @@
+// Vars
+
+:root {
+  // base
+  --base-txt-color: #ffffff;
+  --heading-color: #ffffff;
+  --base-font-family: 'Work Sans', sans-serif;
+  --body-bg: #1e285b;
+  
+
+  // colors  
+  $brand-color: #A6913A;
+  --brand-color: #{$brand-color};
+  --link-color: --brand-color;
+  $secondary: #1e285b;
+  --secondary: #{$secondary};
+
+  
+  // app header
+  --app-header-height: 60px;
+  --app-header-txt-color: #fff;
+  --app-header-title-font-size: 1.6em;
+
+  // shoelace tokens
+  // full list here:
+  // https://github.com/shoelace-style/shoelace/blob/current/src/styles/base.scss
+  --sl-color-primary-50: #f4f4f4;
+  --sl-color-primary-100: #{lighten($brand-color, 40%)};
+  --sl-color-primary-200: #{lighten($brand-color, 30%)};
+  --sl-color-primary-300: #{lighten($brand-color, 20%)};
+  --sl-color-primary-400: #{lighten($brand-color, 10%)};
+  --sl-color-primary-500: #{$brand-color};
+  --sl-color-primary-600: #{darken($brand-color, 10%)};
+  --sl-color-primary-700: #{darken($brand-color, 20%)};
+  --sl-color-primary-800: #{darken($brand-color, 30%)};
+  --sl-color-primary-900: #{darken($brand-color, 40%)};
+  --sl-focus-ring-color-primary: #{rgba($brand-color, 0.1)};
+
+  --sl-color-secondary-50: #f4f4f4;
+  --sl-color-secondary-100: #{lighten($secondary, 20%)};
+  --sl-color-secondary-200: #{lighten($secondary, 15%)};
+  --sl-color-secondary-300: #{lighten($secondary, 10%)};
+  --sl-color-secondary-400: #{lighten($secondary, 5%)};
+  --sl-color-secondary-500: #{$secondary};
+  --sl-color-secondary-600: #{darken($secondary, 10%)};
+  --sl-color-secondary-700: #{darken($secondary, 20%)};
+  --sl-color-secondary-800: #{darken($secondary, 30%)};
+  --sl-color-secondary-900: #{darken($secondary, 40%)};
+  --sl-focus-ring-color-secondary: #{rgba($secondary, 0.1)};
+}
