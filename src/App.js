@@ -7,7 +7,8 @@ class App {
   constructor(){
     this.name = "WGSConnectd"
     this.version = "1.0.0"
-    this.apiBase = 'http://localhost:3000'
+    //this.apiBase = 'http://localhost:3000'
+    this.apiBase = 'https://courageous-syrniki-e4c28c.netlify.app/'
     this.rootEl = document.getElementById("root")
     this.version = "1.0.0"
   }
